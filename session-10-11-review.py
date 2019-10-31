@@ -2,8 +2,10 @@
 
 # Reviewing While loops:
 # Write code to print multiples of 5 from 45 to 90
-
-
+i = 45
+while i<91:
+	print(i)
+	i +=5
 # With your partner: discuss: What is a set? What is it good for?
 # Write your response as a comment here:
 #
