@@ -1,5 +1,8 @@
 # Welcome back!
 
+# write a while loop that prints 1-12 
+
+
 # Reviewing While loops:
 # Write code to print multiples of 5 from 45 to 90
 #i =45
@@ -15,10 +18,17 @@
 myset= {1,2,3,4,5}
 
 
+<<<<<<< HEAD
 # Create a 2D numpy array of size 3x5 with numbers 1-15:
 import numpy as np
 a = np.arange(1,16).reshape(3,5)
 print(a)
+=======
+
+# Create a 2D numpy array of size 3x5 with numbers 1-15:
+
+
+>>>>>>> 4ee90da2d00612c58c82c1c48f5d9dca8abd4228
 
 # From your array, print the number 7:
 print(a[1,1])
