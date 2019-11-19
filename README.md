@@ -3,6 +3,8 @@
 General Links:
 [Exit tickets](https://docs.google.com/forms/d/e/1FAIpQLSfsxnziDqgi37Dt_TLSYkIe0KuvZZAgwfX-sCrVf3oFcm8oyA/viewform?usp=sf_link)
 
+[Playlist](https://docs.google.com/spreadsheets/d/1ZSeXgPK3O_-eN1yIHNxt3gs5BrxWRAwwLJfhDrIfHMU/edit?usp=sharing)
+
 Calendar 
 
 Date | Topic | Links / Materials
@@ -17,6 +19,7 @@ Thursday October 31 | Cutting data down, ageostrophic/geostrophic currents| [not
 Tuesday November 5 | No meeting, Election day |
 Thursday November 7 | Workshop |
 Tuesday November 12 | Oceans: Our Blue Planet movie, How does Ocean acidification work? | [movie info](https://www.amnh.org/exhibitions/3d-and-2d-films/oceans-our-blue-planet), [Ocean Acidification](https://www.youtube.com/watch?v=GL7qJYKzcsk)
-Thursday November 14 | Introduction to Machine Learning | [Fun AI Application of the week: Metaphoria](https://metaphor.ga), Slides about ML (link to be updated)
-Tuesday November 19 | Introduction to Organzing Data for ML | [Google Teachable Machine](https://teachablemachine.withgoogle.com)
-Thursday November 21 | Introduction to Computer Vision | 
+Thursday November 14 | Finishing Data Visualization |
+Tuesday November 19| Introduction to Machine Learning | [Fun AI Application of the week: Metaphoria](https://metaphor.ga), [Slides about ML](https://docs.google.com/presentation/d/1PoBDwWU-9ubRLOZLUqNlONPtjH3_SLh552pXAvatn_c/edit?usp=sharing)
+Thursday November 21 | Introduction to Organzing Data for ML | [Google Teachable Machine](https://teachablemachine.withgoogle.com), [Slides](https://docs.google.com/presentation/d/17zZ4Xcd3Jup232P5yJsE2InKG-jXf8qk7qdICPO2qt4/edit?usp=sharing)
+Tuesday November 26| Introduction to Computer Vision | 
