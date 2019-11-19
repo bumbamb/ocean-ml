@@ -1,8 +1,12 @@
 from netCDF4 import Dataset
 import numpy.ma as ma
+import matplotlib.pyplot as plt
+import matplotlib.lines as mlines
+from datetime import date
+
 
 # import the netcdf file using Dataset
-dataset = Dataset(r'/Users/helenfellow/Documents/InternGit/ocean-ml/session-10-31/ssh_1572470095877.nc')
+dataset = Dataset(r'/Users/brownscholar/Desktop/Internships/Climate/ocean-ml/session-10-31/ssh_1572470095877.nc')
 
 # read in and create variable for lat:
 lat = dataset['latitude']
@@ -13,9 +17,9 @@ lon = dataset['longitude']
 # adt:
 adt = dataset['adt']
 
-start_date = date(1950,1,1)
-delta = timedelta(days = int(time[0]))
-observation_date = (start_date+delta).strftime("%m/%d/%Y")
+#start_date = date(1950,1,1)
+#delta = timedelta(days = int(time[0]))
+#observation_date = (start_date+delta).strftime("%m/%d/%Y")
 
 # you will need this:
 BATS_lat_max = 39.453
@@ -68,7 +72,16 @@ while i<1:
 
 
 # write code for global ocean here: 
-
+adt = adt[0,:,:]
+plt.imshow(adt,origin="lower")
+cbar = plt.colorbar()
+#plt.plot(lat_index_min, lat_index_max, color= "black")
+#plt.plot(lon_index_min, lon_index_max, color= "black")
+plt.plot(lon_index_min,lat_index_min, color = "black")
+plt.xlabel('longitude')
+plt.ylabel('latitude')
+plt.title('Whole Globe')
+plt.show()
 
 # write code for BATS part here:
 
