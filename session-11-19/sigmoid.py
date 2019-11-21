@@ -4,22 +4,22 @@ import numpy as np
 # you are chosing between two things
 # Example: "Should I buy white sneakers instead of black sneakers?"
 # or "Should I take AP chemistry?"  
-decision = "your - decision - here"
+decision = "Should i dye my hair"
 
 # Pick three factors that affect your decision and write them as strings
-factor_1 = "factor - 1 "
-factor_2 = "factor - 2"
-factor_3 = "factor - 3"
+factor_1 = "how long of a break"
+factor_2 = "how much damage it has"
+factor_3 = "what color"
 
 # think about how much each of these factors matter
 # create a numpy array of length 3 where the first
 # value is how much the first factor matters, the 
 # second value is how much the second factor matters
 # etc:
-weights = #your code here
+weights = np.array([8,6,3])#your code here
 
 # pick a value for the bias: explain to your partner what this means
-bias = -9 # change this
+bias = -7 # change this
 # keep your weights and biases on the same scale
 # for example if your weights are 6, 7, 9 don't make your bias 100
 
@@ -29,7 +29,7 @@ bias = -9 # change this
 # but you think that probably won't happen, the first value in  
 # your array might be 0.10, meaning you think you are 10% likely to 
 # get your shoes dirty
-factor_values = # your code here
+factor_values = np.array([1.20, 0.05, 0.40])# your code here
 
 # now the perceptron is going to calculate the outcome. This is
 # basically the same as the perceptron example except for the 
