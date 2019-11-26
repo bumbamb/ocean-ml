@@ -22,4 +22,4 @@ Tuesday November 12 | Oceans: Our Blue Planet movie, How does Ocean acidificatio
 Thursday November 14 | Finishing Data Visualization |
 Tuesday November 19| Introduction to Machine Learning | [Fun AI Application of the week: Metaphoria](https://metaphor.ga), [Slides about ML](https://docs.google.com/presentation/d/1PoBDwWU-9ubRLOZLUqNlONPtjH3_SLh552pXAvatn_c/edit?usp=sharing)
 Thursday November 21 | Introduction to Organzing Data for ML | [Google Teachable Machine](https://teachablemachine.withgoogle.com), [Slides](https://docs.google.com/presentation/d/17zZ4Xcd3Jup232P5yJsE2InKG-jXf8qk7qdICPO2qt4/edit?usp=sharing)
-Tuesday November 26| Introduction to Computer Vision | 
+Tuesday November 26| Backprop, training, example, classes | [slides](https://docs.google.com/presentation/d/19oal-ekXEvZxfncu_YcImDFUWOG5zqoKmFrc2nlTXg4/edit?usp=sharing)
