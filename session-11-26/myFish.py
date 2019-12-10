@@ -1,6 +1,6 @@
 class Fish:
 	def __init__(self, name='Denise',hunger=0,happiness = 10):
-		self.name = 'Denise' 
+		self.name = name 
 		self.hunger = hunger
 		self.happiness = happiness
 
@@ -19,3 +19,4 @@ class Fish:
 		# what happens to hunger and happiness when the fist swims?
 
 	#what other things does the fish do besides eat and swim?
+fish = Fish()
