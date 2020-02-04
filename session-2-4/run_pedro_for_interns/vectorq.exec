@@ -1,0 +1,22 @@
+#!/bin/csh
+
+
+set dir = ./ss1a2/
+set fileinfo = ./ss1a2/info_pr.dat
+set filedh =  {$dir}ss1a2dh.gr
+set filest =  {$dir}ss1a2st.gr
+set filestm = {$dir}ss1_st0.dat
+set filegrv = {$dir}ss1a2grv.gr
+set filequ =  {$dir}ss1a2qu.gr
+set fileqv =  {$dir}ss1a2qv.gr
+set fileqdi = {$dir}ss1a2qdi.gr
+
+./vectorq.exe << !
+'$fileinfo'	#>>>>>Escribe info file info.dat:
+'$filedh'	#>>>>>Escribe fichero de altura Dinamica:
+'$filest'	#>>>>>Escribe fichero de densidad:
+'$filestm'	#>>>>>Escribe fichero de densidad promedio:
+'$filequ'	#>>>>>Escribe fichero Qu:
+'$fileqv'	#>>>>>Escribe fichero Qv:
+'$fileqdi'	#>>>>>Escribe fichero Qdi:
+!

@@ -1,0 +1,7 @@
+1E-07           !EPSILON PARA OVER-RELAXATION
+1E8            	!BCSENP : SENSIBLITE BOUNDARY CONDITIONS 
+1              	!N2PARAM : N2=0 SI N2PARAM=0
+1             	!F2PARAM : F2=0 SI F2PARAM=0
+1.E-16          !FZFAC : FACTOR D'ESCALA DE LES DADES DE *QDI.SNP (1 /m s3)
+1.15741E-5   	!OMFAC : FACTOR D'ESCALA DESITJAT PER A OMEGA (m/s),
+		  !ahora esta para pasar a m/day

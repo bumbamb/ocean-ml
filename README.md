@@ -28,3 +28,8 @@ Tuesday December 10 | Review: Computer Vision, Begin final ML project | [Slides]
 Thursday December 12 | Review and Final ML project cont'd | [Slides](https://docs.google.com/presentation/d/1k6fijiglXVcDb3zYEKCSmmPFUi_Izr-CHbVnuB3MObg/edit?usp=sharing)
 Tuesday January 14 | Welcome back! Review and final ML project cont'd | [Slides](https://docs.google.com/presentation/d/19vikYfrhbC0rkX4MbjKYy_SGhJ8PebDgSH_SIVYalQo/edit?usp=sharing), [Helpful link for ocean science stuff](https://www.whoi.edu/know-your-ocean/ocean-topics/ocean-circulation/currents-gyres-eddies/)
 Thursday January 16 | Review and final ML project cont'd | 
+Tuesday January 21 | Presentation prep day 1 | 
+Thursday January 23 | Presentation prep day 2 |
+Tuesday January 28 | Career readiness workshop | 
+Thursday January 30 | Mid year presentations |
+Tuesday February 4 | Recap + Introucing data processing unit, Cyclonic/Anticylonic eddies, Quasi-geostrophic (QG) equation | [Slides](https://docs.google.com/presentation/d/1UH27w6dx-nBl7XnIJ9Wh_s2C-zm0qcIrlTRzcx1TXZ4/edit?usp=sharing) [Fortran files class doc](https://docs.google.com/spreadsheets/d/1brDQSDaTjYrFh05NRvooVGOExfQJLUtLLUybsx18Fcs/edit?usp=sharing) [Notes](https://docs.google.com/document/d/160MQVX4yKLjOXmCksRohuliIG1llqV6V1Kv2oTm5nuo/edit?usp=sharing)
