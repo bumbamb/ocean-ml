@@ -32,4 +32,7 @@ Tuesday January 21 | Presentation prep day 1 |
 Thursday January 23 | Presentation prep day 2 |
 Tuesday January 28 | Career readiness workshop | 
 Thursday January 30 | Mid year presentations |
-Tuesday February 4 | Recap + Introucing data processing unit, Cyclonic/Anticylonic eddies, Quasi-geostrophic (QG) equation | [Slides](https://docs.google.com/presentation/d/1UH27w6dx-nBl7XnIJ9Wh_s2C-zm0qcIrlTRzcx1TXZ4/edit?usp=sharing) [Fortran files class doc](https://docs.google.com/spreadsheets/d/1brDQSDaTjYrFh05NRvooVGOExfQJLUtLLUybsx18Fcs/edit?usp=sharing) [Notes](https://docs.google.com/document/d/160MQVX4yKLjOXmCksRohuliIG1llqV6V1Kv2oTm5nuo/edit?usp=sharing)
+Tuesday February 4 | Recap + Introucing data processing unit, Cyclonic/Anticylonic eddies, Quasi-geostrophic (QG) equation | [Slides](https://docs.google.com/presentation/d/1UH27w6dx-nBl7XnIJ9Wh_s2C-zm0qcIrlTRzcx1TXZ4/edit?usp=sharing), [Fortran files class doc](https://docs.google.com/spreadsheets/d/1brDQSDaTjYrFh05NRvooVGOExfQJLUtLLUybsx18Fcs/edit?usp=sharing), [Notes](https://docs.google.com/document/d/160MQVX4yKLjOXmCksRohuliIG1llqV6V1Kv2oTm5nuo/edit?usp=sharing)
+Thursday February 6 | Understanding files involved for data processing unit | 
+Tuesday February 11 | Downloading data, starting making density file | [Slides](https://docs.google.com/presentation/d/1lk1o4YpSVkSHYoPXDAzb4Eggr0svhm7aUax5TjnVQ7w/edit?usp=sharing), [seawater library](https://github.com/bjornaa/seawater), [downloading data](http://marine.copernicus.eu/services-portfolio/access-to-products/)
+Thursday Feburary 13 | Making density file cont'd | 
