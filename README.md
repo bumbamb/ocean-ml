@@ -36,3 +36,6 @@ Tuesday February 4 | Recap + Introucing data processing unit, Cyclonic/Anticylon
 Thursday February 6 | Understanding files involved for data processing unit | 
 Tuesday February 11 | Downloading data, starting making density file | [Slides](https://docs.google.com/presentation/d/1lk1o4YpSVkSHYoPXDAzb4Eggr0svhm7aUax5TjnVQ7w/edit?usp=sharing), [seawater library](https://github.com/bjornaa/seawater), [downloading data](http://marine.copernicus.eu/services-portfolio/access-to-products/)
 Thursday Feburary 13 | Making density file cont'd | 
+February 18-20 | No session; fall break |
+February 25 | Guest speaker |
+February 27 | Making dynamic height file | [Slides](https://docs.google.com/presentation/d/1dik-VcBjoT5O4eYqFiQtIx9I5a4gTa-b1K2msBmLOuI/edit?usp=sharing)}
