@@ -39,3 +39,4 @@ Thursday Feburary 13 | Making density file cont'd |
 February 18-20 | No session; fall break |
 February 25 | Guest speaker |
 February 27 | Making dynamic height file | [Slides](https://docs.google.com/presentation/d/1dik-VcBjoT5O4eYqFiQtIx9I5a4gTa-b1K2msBmLOuI/edit?usp=sharing)}
+March 3 | Writing density file | [Slides](https://docs.google.com/presentation/d/1QtSeS2s-9Utn-b6t4A41YOd6Aeq6yDHWvzt5C--Xa5w/edit?usp=sharing)
