@@ -11,8 +11,6 @@ longitude = dataset['longitude']
 
 
 
-
-
 print(temp.shape)
 print(salinity.shape)
 print(pressure.shape)
