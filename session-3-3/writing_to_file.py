@@ -34,8 +34,8 @@ density= sw.dens(salinity[:], temp[:], pressure_3d)
 density + density -1000
 print(density.shape)
 
-time1 = density[0,:,:,:]
-
+#time1 = density[0,:,:,:]
+time1 = density
 # for i in range(0,31):
 # 	for j in range(0,80):
 # 		for k in range(0,27):
@@ -47,3 +47,20 @@ for i in range(0,31):
 		for k in range(0,27):
 			density_file.write(str(time1[i,j,k]))
 density_file.close()
+
+density_time1 = density[:,:,:]
+#print(density_time1)
+density_file = open('density_file.txt','w')
+
+for i in range(0,31):
+	for j in range(0,80):
+		for k in range(0,27):
+			density_file.write(str(density_time1[i,j,k])+"\n")
+density_file.close()
+
+for i in range(0,1356):
+	for j in range(0,31):
+		for k in range(0,80):
+			for l in range(0,27):
+				
+
