@@ -38,5 +38,9 @@ Tuesday February 11 | Downloading data, starting making density file | [Slides](
 Thursday Feburary 13 | Making density file cont'd | 
 February 18-20 | No session; fall break |
 February 25 | Guest speaker |
-February 27 | Making dynamic height file | [Slides](https://docs.google.com/presentation/d/1dik-VcBjoT5O4eYqFiQtIx9I5a4gTa-b1K2msBmLOuI/edit?usp=sharing)}
+February 27 | Making dynamic height file | [Slides](https://docs.google.com/presentation/d/1dik-VcBjoT5O4eYqFiQtIx9I5a4gTa-b1K2msBmLOuI/edit?usp=sharing)
 March 3 | Writing density file | [Slides](https://docs.google.com/presentation/d/1QtSeS2s-9Utn-b6t4A41YOd6Aeq6yDHWvzt5C--Xa5w/edit?usp=sharing)
+March 5 | Writing density file pt. 2 | [Slides](https://docs.google.com/presentation/d/1NW8Lk3s6erRCAsxFMVzUouFr6wzIpY-UOO8vglJHXzQ/edit?usp=sharing)
+March 10 | Wrapping up density file, writing info_pr.dat and running fortran code | [Slides](https://docs.google.com/presentation/d/151VL51PuCEjnnX8oq3uIj9yZcYetBE83xsdw8zWoZYM/edit?usp=sharing), [Other slides](https://docs.google.com/presentation/d/1I-KBQLYDpxs4wVRxx7g2ZU5jYI095m3zm_1MFC2KDy0/edit?usp=sharing)
+March 12 | Running Fortran code on all dates | [Slides](https://docs.google.com/presentation/d/1jMuMKkh6n_lKn5U_mFCzKW4vEYiaa7eFAPCIbGU5LBM/edit?usp=sharing)
+March 17 | Running Fortran code on all dates part 2 | [Slides](https://docs.google.com/presentation/d/1lilAUqBbKsjI05ic71lkZT3AAou5INmoHP82jkl29S0/edit?usp=sharing)

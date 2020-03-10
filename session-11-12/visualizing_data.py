@@ -1,8 +1,15 @@
 from netCDF4 import Dataset
 import numpy.ma as ma
+<<<<<<< HEAD
 import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 from datetime import date
+=======
+from datetime import date
+from datetime import timedelta
+import matplotlib.pyplot as plt
+import matplotlib.lines as mlines
+>>>>>>> ae2a66d07524f15dcce27fbe52b54d85ec246ec5
 
 
 # import the netcdf file using Dataset
@@ -14,12 +21,19 @@ lat = dataset['latitude']
 # lon:
 lon = dataset['longitude']
 
+
 # adt:
 adt = dataset['adt']
 
+<<<<<<< HEAD
 #start_date = date(1950,1,1)
 #delta = timedelta(days = int(time[0]))
 #observation_date = (start_date+delta).strftime("%m/%d/%Y")
+=======
+# start_date = date(1950,1,1)
+# delta = timedelta(days = int(time[0]))
+# observation_date = (start_date+delta).strftime("%m/%d/%Y")
+>>>>>>> ae2a66d07524f15dcce27fbe52b54d85ec246ec5
 
 # you will need this:
 BATS_lat_max = 39.453

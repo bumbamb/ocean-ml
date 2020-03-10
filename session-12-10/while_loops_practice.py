@@ -11,6 +11,7 @@ while a<241:
 	a+=24
 # 3. Use a while loop to find the average of these numbers:
 numbers = [10,42,-2, 900,5,8,39]
+<<<<<<< HEAD
 print(len(numbers))
 c = 0
 for i in numbers:
@@ -26,3 +27,17 @@ while i < len(numbers):
 print(total)
 print(total/len(numbers))
 
+=======
+print(numbers[1])
+i = 0
+total = 0
+
+while i < len(numbers):
+	total += numbers[i]
+	i+=1
+
+print(total)
+average = total/len(numbers)
+
+print(average)
+>>>>>>> ae2a66d07524f15dcce27fbe52b54d85ec246ec5
