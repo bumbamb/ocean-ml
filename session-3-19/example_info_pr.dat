@@ -1,0 +1,52 @@
+Fitxer de dades sobre el domini i la xarxa; programes que hi accedeixen: 
+ ANALIST_SC , CONSTRUC , GEOPSUM , DERIVAT , VECTORQ , PV , GENERATOR .
+
+XLON1, XLAT1   ,  coordenades del canto inferior esquerra del domini (graus)
+ -5., 35.65
+
+ALF0           ,  orientacio: es pot delimitar la zona segons meridians i
+  0.           ,  paral.lels (ALF0=0.) o be inclinar-la un angle ALF0 (graus)
+
+ NL , NF , NC  ,  nombre de nivells, files i columnes  
+ 36 , 36 , 44  
+
+ XARM , YARM   ,  mida de les cel.les (en graus si ALF0=0., si no en KM)
+ 0.03, 0.025
+
+ Z0  , ZINT    ,  nivell superior i interval entre nivells
+ 13. ,  8.     
+
+ NA            ,  nom arrel de les dades que estam emprant (a3)
+ss1
+
+------------------------------------------------------------------------------
+
+ATENCIO !!!:  del domini seleccionat, a l'hora de la representacio grafica
+              se'n perdran dues files i dues columnes per banda (les mes 
+              exteriors): en total 4 files i 4 columnes.
+
+              Aixo s'ha de tenir en compte seleccionant un domini mes ample
+              del que realment es necessita...
+
+------------------------------------------------------------------------------
+
+Instruccions de lectura:
+      open(unit=99,file='info.dat',status='old')
+      read(99,3)
+      read(99,3)
+      read(99,*) XLON1,XLAT1
+      read(99,3)
+      read(99,*) ALF0
+      read(99,3) 
+      read(99,*) NL,NF,NC
+      read(99,3)
+      read(99,*) XARM,YARM
+      read(99,3)
+      read(99,*) Z0,ZINT
+      read(99,3)
+      read(99,5) NA
+    3 format(1x/1x)
+    5 format(a3)
+      close(unit=99)
+
+------------------------------------------------------------------------------  
