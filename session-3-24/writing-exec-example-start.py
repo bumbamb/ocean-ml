@@ -1,0 +1,36 @@
+
+# vectorq.exec:
+print("#!/bin/csh\n\n")
+print("set dir = ./test/\n")
+print("set fileinfo = {$dir}info_pr.dat\n")
+print("set filedh =  {$dir}dh_19930106.gr\n")
+print("set filest =  {$dir}density_19930106.gr\n")
+print("set filestm = {$dir}ss1_st0.dat\n")
+print("set filequ =  {$dir}ss1a2qu.gr\n")
+print("set fileqv =  {$dir}ss1a2qv.gr\n")
+print("set fileqdi = {$dir}ss1a2qdi.gr\n")
+print("./vectorq.exe << !\n")
+print("'$fileinfo'	#>>>>>Escribe info file info.dat:\n")
+print("'$filedh'	#>>>>>Escribe fichero de altura Dinamica:\n")
+print("'$filest'	#>>>>>Escribe fichero de densidad:\n")
+print("'$filestm'	#>>>>>Escribe fichero de densidad promedio:\n")
+print("'$filequ'	#>>>>>Escribe fichero Qu:\n")
+print("'$fileqv'	#>>>>>Escribe fichero Qv:\n")
+print("'$fileqdi'	#>>>>>Escribe fichero Qdi:\n")
+
+#omegainv.exec:
+
+print("#!/bin/csh\n")
+print("set dir = ./test/\n")
+print("set fileinfo = {$dir}info_pr.dat\n")
+print("set filestm = {$dir}ss1_st0.dat\n")
+print("set fileqdi = {$dir}ss1a2qdi.gr\n")
+print("set filew =   {$dir}ss1a2ww.gr\n")
+
+print("./omegainv.exe << !\n")
+print("'$fileinfo' 	#>>>>>Escribe info file info.dat:\n")
+print("'$fileqdi' 	#>>>>>Escribe fichero de Div Q:\n")
+print("'$filestm'   	#>>>>>Escribe fichero de densidad promedio:\n")
+print("'ominput.dat'  #>>>>>Escribe fichero parametros (ominput.dat):\n")
+print("'$filew'	#>>>>>Escribe fichero Salida W:\n")
+print("!\n")
