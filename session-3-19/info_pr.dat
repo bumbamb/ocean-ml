@@ -2,19 +2,19 @@ Fitxer de dades sobre el domini i la xarxa; programes que hi accedeixen:
  ANALIST_SC , CONSTRUC , GEOPSUM , DERIVAT , VECTORQ , PV , GENERATOR .
 
 XLON1, XLAT1   ,  coordenades del canto inferior esquerra del domini (graus)
- -5., 35.65
+ -66.125, 19.625
 
 ALF0           ,  orientacio: es pot delimitar la zona segons meridians i
   0.           ,  paral.lels (ALF0=0.) o be inclinar-la un angle ALF0 (graus)
 
  NL , NF , NC  ,  nombre de nivells, files i columnes  
- 36 , 36 , 44  
+ 30 , 80 , 27  
 
  XARM , YARM   ,  mida de les cel.les (en graus si ALF0=0., si no en KM)
- 0.03, 0.025
+ 0.25, 0.25
 
  Z0  , ZINT    ,  nivell superior i interval entre nivells
- 13. ,  8.     
+ 10. ,  10     
 
  NA            ,  nom arrel de les dades que estam emprant (a3)
 ss1

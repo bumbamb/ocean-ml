@@ -1,6 +1,6 @@
 #!/bin/csh
 
-set dir = ./test/
+set dir = ./ss1/
 set fileinfo = {$dir}info_pr.dat
 set filestm = {$dir}ss1_st0.dat
 set fileqdi = {$dir}ss1a2qdi.gr
