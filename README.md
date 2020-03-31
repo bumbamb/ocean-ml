@@ -46,3 +46,5 @@ March 12 | Reviewing datetime library, changing file names | [slides](https://do
 March 17 | Making all dynamic height and desnity files, writing info_pr.dat | [Slides](https://docs.google.com/presentation/d/18qitTrwjsubY5OdeqVMlGDAwEMo39XeEtS-vqxbUwpA/edit?usp=sharing)
 March 19 | Writing info_pr.dat, running single instance of our code | [slides :)](https://docs.google.com/presentation/d/11ePjDMUKc9YcA_U4llx3pzzpAB6AZiqQjNGheV-9kDY/edit?usp=sharing)
 March 24 | dealing with errors, writing exec files, intro to shell scripts | [slides](https://docs.google.com/presentation/d/1AqXaRSzMr0w1tV1DbEzxl6iax4fjgQRtCUrSecA6IGI/edit?usp=sharing)
+March 26 | intro to shell scripts | [Slides](https://docs.google.com/presentation/d/1DQpRwCuA_CZyaMe4wpsEpUzQKVpjYqd_v3ORWnVKezA/edit?usp=sharing)
+March 31 | writing our shell script | [Slides](https://docs.google.com/presentation/d/1s9aaoXj8MjQokFDPWqoSJtCHhcUd1iBHUrpCp_5bAGo/edit?usp=sharing)
