@@ -1,0 +1,17 @@
+#!/bin/csh
+
+
+set dir = ./test/
+set outdir = /Users/brownscholar/Desktop/fortran_files/omega/
+set auxdir = /Users/brownscholar/Desktop/fortran_files/aux/
+set fileinfo = {$dir}info_pr.dat
+set filestm = {$auxdir}/st0/930106_st0.dat
+set fileqdi = {$auxdir}/qdi/930106_qdi.gr
+set filew =   {$outdir}w/930106_ww.gr
+
+./omegainv.exe << !
+'$fileinfo' 	#>>>>>Escribe info file info.dat:
+'$fileqdi' 	#>>>>>Escribe fichero de Div Q:
+'$filestm'   	#>>>>>Escribe fichero de densidad promedio:
+'ominput.dat'  #>>>>>Escribe fichero parametros (ominput.dat):
+'$filew'	#>>>>>Escribe fichero Salida W:

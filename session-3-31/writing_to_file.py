@@ -5,7 +5,7 @@ import datetime as td
 import tricubic
 #input: salinity, temperature, and pressure in form of netcdf file 
 #1st: import data and get all 
-dataset = Dataset(r'/Users/brownscholar/Desktop/dataset-armor-3d-rep-weekly_1574699840388.nc')
+dataset = Dataset(r'/Users/brownscholar/Desktop/Internships/Climate/dataset-armor-3d-rep-weekly_1574699840388.nc')
 salinity= (dataset['so'])
 temp = (dataset['to'])
 pressure = dataset['depth']
@@ -73,8 +73,8 @@ for i in range(0,1356):
 	hours = td.timedelta(hours = int(time[i]))
 	after = start + hours
 	date = after.strftime("%y") + after.strftime("%m") + after.strftime("%d")
-	dh = open("/Users/brownscholar/Desktop/file_dynamic_height/dh_" + date + ".gr", "w")
-	density_times = open("/Users/brownscholar/Desktop/file_density/density_" + date + ".gr", "w")
+	dh = open("/Users/brownscholar/Desktop/Data/dh/dh_" + date + ".gr", "w")
+	density_times = open("/Users/brownscholar/Desktop/Data/density/density_" + date + ".gr", "w")
 	dh.write("\t30\n\t80\t27\n")
 	density_times.write("\t30\n\t80\t27\n")
 	for j in range(0,30):

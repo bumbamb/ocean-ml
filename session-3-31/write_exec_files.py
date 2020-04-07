@@ -1,6 +1,6 @@
 import sys
 
-base = '/Users/helenfellow/Documents/Education /example-writing-to-file/'
+base = './'
 vectorq = base+'vectorq.exec'
 omegainv = base+'omegainv.exec'
 
@@ -27,7 +27,7 @@ f_o.write("\'ominput.dat\'  #>>>>>Escribe fichero parametros (ominput.dat):\n")
 f_o.write("\'$filew\'	#>>>>>Escribe fichero Salida W:\n")
 
 f_v.write("#!/bin/csh\n\n\nset dir = ./test/\n")
-f_v.write("set indir = /Users/helenfellow/Documents/cnn_paper/data/\n")
+f_v.write("set indir = /Users/brownscholar/Desktop/Data/\n")
 f_v.write("set auxdir = /Users/brownscholar/Desktop/fortran_files/aux/\n")
 f_v.write("set outdir = /Users/brownscholar/Desktop/fortran_files/omega/\n") 
 f_v.write("set fileinfo = {$dir}info_pr.dat\n")

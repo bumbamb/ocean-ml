@@ -1,0 +1,23 @@
+#!/bin/csh
+
+
+set dir = ./test/
+set indir = /Users/brownscholar/Desktop/Data/
+set auxdir = /Users/brownscholar/Desktop/fortran_files/aux/
+set outdir = /Users/brownscholar/Desktop/fortran_files/omega/
+set fileinfo = {$dir}info_pr.dat
+set filedh =  {$indir}/dh/dh_930106.gr
+set filest =  {$indir}/density/density_930106.gr
+set filestm = {$auxdir}/st0/930106_st0.dat
+set filequ =  {$outdir}/u/930106_qu.gr
+set fileqv =  {$outdir}/v/930106_qv.gr
+set fileqdi = {$auxdir}/qdi/930106_qdi.gr
+
+./vectorq.exe << !
+'$fileinfo'	#>>>>>Escribe info file info.dat:
+'$filedh'	#>>>>>Escribe fichero de altura Dinamica:
+'$filest'	#>>>>>Escribe fichero de densidad:
+'$filestm'	#>>>>>Escribe fichero de densidad promedio:
+'$filequ'	#>>>>>Escribe fichero Qu:
+'$fileqv'	#>>>>>Escribe fichero Qv:
+'$fileqdi'	#>>>>>Escribe fichero Qdi:

@@ -5,9 +5,7 @@ import tricubic
 def interp(startgrid):
 	num_depths = 30 # to avoid problems with seafloor depth
 	z_step = 10 
-	depth_list = [10, 20, 30, 50, 75, 100, 125, 150, 200, 250, 300, 400, 500, 600, 
-    700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1750, 2000, 2500, 
-    3000, 3500, 4000, 4500, 5000]
+	depth_list = [10, 20, 30, 50, 75, 100, 125, 150, 200, 250, 300, 400]
 
 	new_depth = np.arange(z_step,(num_depths+1)*z_step,z_step) 
 	new_depth_index = []
@@ -123,12 +121,12 @@ for i in range(0,1356):
 	hours = td.timedelta(hours = int(time[i]))#having the hours
 	after = start_date + hours
 	date = after.strftime("%y") + after.strftime("%m") + after.strftime("%d")
-	density_file_1 = open('/Users/brownscholar/Desktop/Data/density' + date + ".gr","w")
-	density_file_1.write("\t30\n\t80\t27")
-	density_at_time = interp(density[i,:,:,:])
-	interpedheight = interp(dynamicheight[i,:,:,:])
-	interpheightfile = open('/Users/brownscholar/Desktop/Data/dh' + date + '.gr', 'w')
-	interpheightfile.write("\t30\n\t80\t27")
+	density_file_1 = open('/Users/brownscholar/Desktop/Data/density/' + date + ".gr","w")
+	density_file_1.write("\t30\n\t80\t27\n")
+	density_at_time = interp(density[i,:12,:,:])
+	interpedheight = interp(dynamicheight[i,:12,:,:])
+	interpheightfile = open('/Users/brownscholar/Desktop/Data/dh/' + date + '.gr', 'w')
+	interpheightfile.write("\t30\n\t80\t27\n")
 	for j in range(0,30):
 		for k in range(0,80):
 			for l in range(0,27):

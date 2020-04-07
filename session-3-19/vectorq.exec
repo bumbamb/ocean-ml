@@ -3,7 +3,7 @@
 
 set dir = ./ss1/
 set fileinfo = {$dir}info_pr.dat
-set filedh =  {$dir}dh000105.gr
+set filedh =  {$dir}
 set filest =  {$dir}density000105.gr
 set filestm = {$dir}ss1_st0.dat
 set filequ =  {$dir}ss1a2qu.gr
