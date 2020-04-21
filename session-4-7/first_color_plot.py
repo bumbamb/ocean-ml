@@ -23,15 +23,15 @@ z_step = 10
 
 
 # 1 - import netcdf file
-
+dataset = Dataset(r'/Users/brownscholar/Downloads/omega_test.nc')
 # 2 - load the w variable
-
+w_array = dataset['w'][:]
 # 3 - get lat x lon numpy array of w_variable (pick a single depth and a single time)
-
-
+w_time1 = w_array[10,:,:,0]
 #4 - plot the numpy array you have: 
 # once you have this, you can use plt.pcolormesh() to plot it.
 # ex: if your numpy array was called my_numpy_array:
-# plt.pcolormesh(my_numpy_array,cmap = newcmp,vmin = _min, vmax = _max)
+plt.pcolormesh(w_time1,cmap = newcmp,vmin = _min, vmax = _max)
 # to add colorbar: 
-# plt.colorbar(label = 'm/day')
+plt.colorbar(label = 'm/day')
+plt.show()
