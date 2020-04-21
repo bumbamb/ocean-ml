@@ -50,3 +50,4 @@ March 26 | intro to shell scripts | [Slides](https://docs.google.com/presentatio
 March 31 | writing our shell script | [Slides](https://docs.google.com/presentation/d/1s9aaoXj8MjQokFDPWqoSJtCHhcUd1iBHUrpCp_5bAGo/edit?usp=sharing)
 April 2 | finishing our shell script | [Slides](https://docs.google.com/presentation/d/1xTNKcLSTq3vnzJn17XURZVGy_u7oklCZrRB0Ak6SXzs/edit?usp=sharing)
 April 7 | converting our data to netcdf file, starting plots | [Slides](https://docs.google.com/presentation/d/1v2KPu8ChbO8H41lt-qfrOsoaNWqExmnIKiy6sZAWzoQ/edit?usp=sharing)
+April 21 | Starting Hovmoller Diagram :-) | [Slides](https://docs.google.com/presentation/d/1qlRekwLJRDLANCHkwlwkWUt_PHbHwnKl3ajqFseu9k4/edit?usp=sharing)
